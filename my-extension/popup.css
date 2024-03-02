@@ -1,0 +1,15 @@
+
+.custom-audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffcc00, #ff6600); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+    width: 100%;
+    max-width: 300px; 
+}

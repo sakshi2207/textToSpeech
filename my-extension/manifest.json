@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Text to speech translator",
+    "version": "1.0",
+    "description": "Support every language text",
+    "icons":{
+      "32": "/icon.svg"
+    },
+   
+    "action":{
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ]
+  }
+  
